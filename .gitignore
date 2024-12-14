@@ -1,0 +1,11 @@
+*.LSOverride
+Thumbs.db
+.bundle
+*.exe
+# Linux folder attributes (Dolphin) and PyCharm metadata.
+.idea/
+.directory/
+# macOS folder attributes. 
+.DS_Store
+# Vim swap file.
+.swp

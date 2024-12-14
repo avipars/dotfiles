@@ -1,0 +1,38 @@
+[user]
+  name = Avi Parshan
+[github]
+	user = avipars
+[color]
+  branch = auto
+  diff = auto
+  interactive = auto
+  status = auto
+  ui = auto
+[init]
+  defaultBranch = main
+[push]
+  default = simple
+[core]
+  editor = vi
+  excludesfile = ~/.gitignore
+  attributesfile = ~/.gitattributes
+  autocrlf = input
+[difftool]
+  prompt = false
+[alias]
+  c = commit
+  ca = commit -a
+  cm = commit -m
+  cam = commit -am
+  d = diff
+  dc = diff --cached
+  s = status -s
+  amend = commit --amend --reuse-message=HEAD
+[pull]
+    rebase = true
+[apply]
+	whitespace = fix 	# Detect whitespace errors when applying a patch
+[url "git@github.com:github"]
+	insteadOf = "https://github.com/github"
+	insteadOf = "github:github"
+	insteadOf = "git://github.com/github"
